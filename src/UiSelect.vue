@@ -439,9 +439,9 @@ export default {
             });
 
             this.highlightedIndex = index;
-            this.clearQuery();
 
             if (!this.multiple && options.autoClose) {
+                this.clearQuery();
                 this.closeDropdown();
             }
         },
@@ -482,7 +482,8 @@ export default {
                 text = text.toLowerCase();
             }
 
-            return fuzzysearch(query, text);
+            return text.indexOf(query) > -1;
+            //return fuzzysearch(query, text);
         },
 
         clearQuery() {

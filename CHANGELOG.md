@@ -108,7 +108,7 @@
 - **Breaking**: `trigger` prop is now a DOM Element instance or selector string. If no trigger is provided or the selector doesn't match any element, the ripple's immediate parent element is used as the trigger.
 - Fix incorrect ripple position when clicking directly on trigger's inner elements. Fixes #220.
 
-## v1.0.1
+## v1.0.3
 
 * Upgrade Vue to `v2.4.2` and fix template warnings. See [#268](https://github.com/JosephusPaye/Keen-UI/issues/268).
 * Add `aria-describedby` attribute to UiTooltip
@@ -119,7 +119,7 @@
 * Fix error being thrown when using UiRippleInk with SVG elements on touch devices. See [#236](https://github.com/JosephusPaye/Keen-UI/issues/236).
 * Fix minor errors and dead links in the docs
 * Remove Material Icons webfont and use inline SVG icons in the docs
-* Update [contributing guidelines](https://github.com/JosephusPaye/Keen-UI/blob/v1.0.1/CONTRIBUTING.md) with information about linting, BEM and using the `next` branch
+* Update [contributing guidelines](https://github.com/JosephusPaye/Keen-UI/blob/v1.0.3/CONTRIBUTING.md) with information about linting, BEM and using the `next` branch
 
 ## v1.0.0
 

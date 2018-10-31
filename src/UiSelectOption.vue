@@ -1,7 +1,7 @@
 <template>
     <li class="ui-select-option" :class="classes">
         <slot>
-            <div class="ui-select-option__basic" v-if="type === 'basic'">
+            <div class="ui-select-option__basic" v-if="type === 'basic'" :title="option[keys.label] || option">
                 {{ option[keys.label] || option }}
             </div>
 
